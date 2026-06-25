@@ -1,0 +1,36 @@
+[2026-06-25T19:03:07.510Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.1f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 22192 --ipc-path Unity-Upm-22192 -l 2 --log-file D:\\Documentos\\IndustrialProcessSimulation/Logs/upm.log
+[2026-06-25T19:03:07.532Z][INFO] IPC server started (IPC path=Unity-Upm-22192).
+[2026-06-25T19:03:07.532Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-22192.
+[2026-06-25T19:03:31.698Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:03:31.813Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-25T19:03:31.827Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:03:31.965Z][INFO] config:project:get-registries --> 200 (152 ms)
+[2026-06-25T19:03:34.675Z][INFO] project:list-packages --> 200 (2977 ms)
+[2026-06-25T19:03:34.699Z][INFO] project:list-packages --> 200 (2872 ms)
+[2026-06-25T19:04:42.916Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:04:42.932Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:04:43.078Z][INFO] project:list-packages --> 200 (162 ms)
+[2026-06-25T19:04:43.090Z][INFO] project:list-packages --> 200 (158 ms)
+[2026-06-25T19:04:45.715Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:04:45.822Z][INFO] project:list-packages --> 200 (107 ms)
+[2026-06-25T19:04:46.082Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-25T19:04:46.085Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-06-25T19:05:05.230Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:05:05.333Z][INFO] project:list-packages --> 200 (103 ms)
+[2026-06-25T19:05:21.311Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:05:21.406Z][INFO] project:list-packages --> 200 (95 ms)
+[2026-06-25T19:05:21.475Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:05:21.573Z][INFO] project:list-packages --> 200 (98 ms)
+[2026-06-25T19:05:21.786Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-25T19:05:21.894Z][INFO] project:list-packages --> 200 (108 ms)

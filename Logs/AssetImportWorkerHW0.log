@@ -1,0 +1,410 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.1f1 (0d9463e84828) revision 889955'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 16167 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-saulo" at "2026-06-25T19:04:57.8150972Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-25T19:04:57Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+D:/Documentos/IndustrialProcessSimulation
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+57577
+-parentPid
+22192
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+4dcfb6bf-600c-4547-a78e-622efdda9f33
+-analyticsLocalProjectId
+e51622229a3831544bdea9e4cf2490ce
+-licensingIpc
+LicenseClient-saulo
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/Documentos/IndustrialProcessSimulation
+D:/Documentos/IndustrialProcessSimulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [22984]  Target information:
+
+Player connection [22984]  * "[IP] 192.168.15.93 [Port] 0 [Flags] 2 [Guid] 2508233773 [EditorId] 2508233773 [Version] 1048832 [Id] WindowsEditor(7,Saulo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Initialize engine version: 6000.5.1f1 (0d9463e84828)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documentos/IndustrialProcessSimulation/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:          NVIDIA
+    VRAM:            7949 MB
+    App VRAM Budget: 7181 MB
+    Driver:          32.0.16.1062
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-saulo"
+[Licensing::IpcConnector] LicenseClient-saulo channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-saulo-6000.5.1" at "2026-06-25T19:04:58.5483415Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19680, path: "C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              1c0c260b952f4d0d987e8592abbc43e1
+  Correlation Id:          b389d0f1482f98f09854ed8644879e5e
+  External correlation Id: 6870523473634522868
+  Machine Id:              V3xl/KFzp8KB5h0c5OHsIFv/LLw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-saulo-6000.5.1" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-saulo-6000.5.1-notifications" at "2026-06-25T19:04:58.5581164Z"
+[Licensing::Module] Licensing Background thread has ended after 0.74s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673597828833-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003737 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 784ms
+	BeginReloadAssembly (110ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (108ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (158ms)
+	FinalizeReload (352ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.358 seconds
+Domain Reload Profiling: 2168ms
+	BeginReloadAssembly (146ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (304ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (180ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1359ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (869ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7561 unused Assets / (7.5 MB). Loaded Objects now: 8636.
+Memory consumption went from 442.3 MB to 434.8 MB.
+Total: 13.799100 ms (FindLiveObjects: 1.208600 ms CreateObjectMapping: 2.498000 ms MarkObjects: 6.407700 ms  DeleteObjects: 3.392900 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (3.2 MB). Loaded Objects now: 8636.
+Memory consumption went from 433.8 MB to 430.6 MB.
+Total: 5.804400 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 1.071400 ms MarkObjects: 4.021100 ms  DeleteObjects: 0.372900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:21.8162137Z
+  Time since last request: 10820.54458639999939 seconds.
+  importAddress: GUID: f79b0c45a3af6a14591e967c67580b54 - Path: Assets/Models/ButterflyValve/Blender/ButterflyValve.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f79b0c45a3af6a14591e967c67580b54 - Path: Assets/Models/ButterflyValve/Blender/ButterflyValve.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f79b0c45a3af6a14591e967c67580b54' -> (Import Result ID: 'b3e43876a0534c9fd487cf36776ddd42') in 0.067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a54cb7af9bd0516f7d1ef316a0722b30 DependenciesID=2c92d97d5699bcb2670216019ec3c9c3 StaticDependenciesID=ac8930bd79b757d940886321fee53737 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:21.9144498Z
+  Time since last request: 0.0056256 seconds.
+  importAddress: GUID: 2f351e488aba5814191a5698538ea4a0 - Path: Assets/Models/WaterPump/Blender/WaterPump.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2f351e488aba5814191a5698538ea4a0 - Path: Assets/Models/WaterPump/Blender/WaterPump.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2f351e488aba5814191a5698538ea4a0' -> (Import Result ID: '19f21a137696fc4ffbe52ea523617990') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fd5104521e2404434f61b5e28d7c3f8 DependenciesID=5f6ab7bb02dcaaf819e2a9fbee92e05c StaticDependenciesID=8636511fbcacbb16664df36d01537512 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:21.9770844Z
+  Time since last request: 0.000356 seconds.
+  importAddress: GUID: 8657af76dcac5a545ab517e6706d6579 - Path: Assets/Models/FlowSensor/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8657af76dcac5a545ab517e6706d6579 - Path: Assets/Models/FlowSensor/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8657af76dcac5a545ab517e6706d6579' -> (Import Result ID: '76ea23242675a254d914e25f05e1f961') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ebbc2467e9680be498e56ffbbf0e1d0 DependenciesID=af52d090bcb73bf9fd9bfcb5edd2a8b7 StaticDependenciesID=5ef92fadd42e3021e29aa295c7e813a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.0016114Z
+  Time since last request: 0.0003769 seconds.
+  importAddress: GUID: c8195c75e89b7694ea5b18d7cf5d3d4f - Path: Assets/Models/BoilerTank/BoilerTank.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c8195c75e89b7694ea5b18d7cf5d3d4f - Path: Assets/Models/BoilerTank/BoilerTank.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 28653360.
+Imported 'GUID: c8195c75e89b7694ea5b18d7cf5d3d4f' -> (Import Result ID: 'f8f296f68a926f0140c303b00d567395') in 0.216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8174ae7ae8e5642c50560fbb8eddc354 DependenciesID=1a0610e7b0183464671c7016506d16d6 StaticDependenciesID=4b979eddae731707e2aec3623571d877 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.2433583Z
+  Time since last request: 0.0000267 seconds.
+  importAddress: GUID: f4f301ebbdc583f4b9b803e02519887d - Path: Assets/Models/BoilerTank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f4f301ebbdc583f4b9b803e02519887d - Path: Assets/Models/BoilerTank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f4f301ebbdc583f4b9b803e02519887d' -> (Import Result ID: '523ca4d7bbbfd020ac67ed17e7b648bc') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7123f9f34a43ea53e0832183ffadbba3 DependenciesID=38ba1146973410b2da890a2f0563c306 StaticDependenciesID=e1f5667dce1e45c5adf1e0636255e024 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.2672901Z
+  Time since last request: 0.0002902 seconds.
+  importAddress: GUID: fb516b94f0981f94f833cd84f9cffc81 - Path: Assets/Models/BoilerTank/Blender/BoilerTank.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fb516b94f0981f94f833cd84f9cffc81 - Path: Assets/Models/BoilerTank/Blender/BoilerTank.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fb516b94f0981f94f833cd84f9cffc81' -> (Import Result ID: '38d963432b618d3879ca089a91f10f56') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6298557331a647fd968beaf170e7b63 DependenciesID=8d472dd69b91f613c058b2acd616293a StaticDependenciesID=73afe2da04e8eb88a80e61746c818237 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.2935737Z
+  Time since last request: 0.0003134 seconds.
+  importAddress: GUID: cbdaff02edf9bbb41818391d1ea3fffe - Path: Assets/Models/WaterPump - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cbdaff02edf9bbb41818391d1ea3fffe - Path: Assets/Models/WaterPump - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cbdaff02edf9bbb41818391d1ea3fffe' -> (Import Result ID: '8bbb4417fbb3e49bdbab5e009a0e8cbd') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcf86706e7ad8dcf79e9dfe39c24d69e DependenciesID=3681531997899f28050c5554fdc97f88 StaticDependenciesID=a483382dc1842a15e16280050aff1f01 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.3160703Z
+  Time since last request: 0.0003465 seconds.
+  importAddress: GUID: 383e161ee3a1d6d4c82bcef3134afe31 - Path: Assets/Models/ButterflyValve - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 383e161ee3a1d6d4c82bcef3134afe31 - Path: Assets/Models/ButterflyValve - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 383e161ee3a1d6d4c82bcef3134afe31' -> (Import Result ID: 'fd6eb581306b765abd87c0c6b09ef0b8') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96ac933e928127ca2117f760d71b5cd2 DependenciesID=728ab6e54930e8e6a999d5820002add9 StaticDependenciesID=15fc01f19544f6cd6447e99fdbdb55c3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.3399903Z
+  Time since last request: 0.0002977 seconds.
+  importAddress: GUID: b3ae959e7e67c3742bac1b7b8af9d8a5 - Path: Assets/Models/WaterPump/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b3ae959e7e67c3742bac1b7b8af9d8a5 - Path: Assets/Models/WaterPump/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b3ae959e7e67c3742bac1b7b8af9d8a5' -> (Import Result ID: 'f10ca681a12236a01cb3b41a63598150') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cb1fe18e48884403cd22c788fe7b22a DependenciesID=1a674f6834e19c2ef85083ce1635b13f StaticDependenciesID=048e5bcaad699d83d9f10576fde525b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.3633071Z
+  Time since last request: 0.0003442 seconds.
+  importAddress: GUID: 7758c19f69fe75547baa68861969ad00 - Path: Assets/Models/FlowSensor/FlowSensor.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7758c19f69fe75547baa68861969ad00 - Path: Assets/Models/FlowSensor/FlowSensor.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7758c19f69fe75547baa68861969ad00' -> (Import Result ID: 'd949246e86360a1b06bd1a11e9c4a8ee') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d39b2a06e3725ca0c67aa6addcb4e143 DependenciesID=4d8d8b7ef8515b744ce8c47445df9aca StaticDependenciesID=5934d5ff5f9008d27520b4e284642b90 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.4009181Z
+  Time since last request: 0.0000936 seconds.
+  importAddress: GUID: 1ffdd38ab08e5374c82fce0a693f6a9b - Path: Assets/Models/BoilerTank/Blender/BoilerTank.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ffdd38ab08e5374c82fce0a693f6a9b - Path: Assets/Models/BoilerTank/Blender/BoilerTank.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ffdd38ab08e5374c82fce0a693f6a9b' -> (Import Result ID: 'a1f1c401f12252580751c4d5c2f4e2cc') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d25eed6bdcd3156206abf0258d16343d DependenciesID=f4517207b450ecfe048aff1ae541b577 StaticDependenciesID=d6be093f95222c60f956c710162d67f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.427908Z
+  Time since last request: 0.0002894 seconds.
+  importAddress: GUID: 3de9adec3c66eb54a903defee9945092 - Path: Assets/Models/FlowSensor/Blender/FlowSensor.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3de9adec3c66eb54a903defee9945092 - Path: Assets/Models/FlowSensor/Blender/FlowSensor.blend - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3de9adec3c66eb54a903defee9945092' -> (Import Result ID: 'c346371b762294bae83946983839fc17') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba1f47bff5d92cb2400eba93cb5cda93 DependenciesID=c8e64879306cda695d35e884cd6ca6a0 StaticDependenciesID=7ea38f87789cec2f71150f14185aab72 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.4851903Z
+  Time since last request: 0.0003327 seconds.
+  importAddress: GUID: 677a7fb3c8cdf264eaf4a57e2f0aee41 - Path: Assets/Models/BoilerTank/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 677a7fb3c8cdf264eaf4a57e2f0aee41 - Path: Assets/Models/BoilerTank/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 677a7fb3c8cdf264eaf4a57e2f0aee41' -> (Import Result ID: 'e3f4db405b73dd54ec73c75d9367c2bb') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdbf57553c1f6ac973cd5ddffa15ea22 DependenciesID=8586abe1e8c2c87b466573e4104b49c5 StaticDependenciesID=5a3764c356edc6844fd1433c537b4133 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.58976Z
+  Time since last request: 0.0799736 seconds.
+  importAddress: GUID: de4f3ca4b54571f42b3e1af69a9d6995 - Path: Assets/Models/FlowSensor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de4f3ca4b54571f42b3e1af69a9d6995 - Path: Assets/Models/FlowSensor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de4f3ca4b54571f42b3e1af69a9d6995' -> (Import Result ID: 'dfe8c4b9d757d5b2ae12fce9e2b24980') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3663530ca42f245e81212d5cf21be64c DependenciesID=14a0a66a4a8da0571d289729deb8b698 StaticDependenciesID=d8f13fdc0296f0801a94e1c52b9518c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.7849339Z
+  Time since last request: 0.1699756 seconds.
+  importAddress: GUID: 6f252f844e2dce84787fb3358e5f9cd5 - Path: Assets/Models/ButterflyValve/ButterflyValve.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f252f844e2dce84787fb3358e5f9cd5 - Path: Assets/Models/ButterflyValve/ButterflyValve.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f252f844e2dce84787fb3358e5f9cd5' -> (Import Result ID: '2af255fb3fcea75f9742f9827b7b56db') in 0.047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1c5ef90e0a65d0b977294a1ba546175 DependenciesID=1c9501a73f655f9384d918d6f393ffb3 StaticDependenciesID=65673af7b677421785ee8843e48503da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.8540786Z
+  Time since last request: 0.0000139 seconds.
+  importAddress: GUID: f5a6790e6e6446c4082fad0258163429 - Path: Assets/Models/WaterPump/WaterPump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f5a6790e6e6446c4082fad0258163429 - Path: Assets/Models/WaterPump/WaterPump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f5a6790e6e6446c4082fad0258163429' -> (Import Result ID: '734c3a54dd3a25dd13bc16cb8b05c1c7') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52e1a0d2756d121f787654122aef9160 DependenciesID=13e95b38a6411466b92ba1a853f5d31e StaticDependenciesID=e2154ac449a97767bff6e99d75580268 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.8887593Z
+  Time since last request: 0.0001782 seconds.
+  importAddress: GUID: 4a20eda1ddbec964aaa665e13b3c8ba5 - Path: Assets/Models/FlowSensor/Blender/FlowSensor.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4a20eda1ddbec964aaa665e13b3c8ba5 - Path: Assets/Models/FlowSensor/Blender/FlowSensor.blend1 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4a20eda1ddbec964aaa665e13b3c8ba5' -> (Import Result ID: 'c04f65b03b2f718deba76a140db1360e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ede9de8b5430e86cb02d84dc35265fe2 DependenciesID=9321da6ef8c830d26f712c69e54307cc StaticDependenciesID=290a5bf15d7ed3e9d456fb78bf1ad2e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.9122091Z
+  Time since last request: 0.0003466 seconds.
+  importAddress: GUID: 81a060bba68e6ef449d07fb854e166e3 - Path: Assets/Models/ButterflyValve/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 81a060bba68e6ef449d07fb854e166e3 - Path: Assets/Models/ButterflyValve/Blender - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 81a060bba68e6ef449d07fb854e166e3' -> (Import Result ID: '62133ac8d2fb7f4d4ce3502488c2cddc') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f37861ae0b16fee497af8bf762f14be9 DependenciesID=028554b52553ba3586ed90f498461948 StaticDependenciesID=5c89b55629f21d6fe1d1343283a9bea8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-25T19:05:22.9370545Z
+  Time since last request: 0.0003468 seconds.
+  importAddress: GUID: 48cd23ff4959c104ab50ff88d0680189 - Path: Assets/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48cd23ff4959c104ab50ff88d0680189 - Path: Assets/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48cd23ff4959c104ab50ff88d0680189' -> (Import Result ID: 'e9ef95f6710598ef4da81bba9d79343b') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ece5cce3b3bf7732f000357376a73f47 DependenciesID=abc34a655d5e8f5c6e7049ca09e4acc0 StaticDependenciesID=d22ff09d0c0d4d69f851c276b1182575 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
