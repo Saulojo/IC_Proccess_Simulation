@@ -23,7 +23,7 @@ namespace IndustrialSim.Core.Components
 
         public double LevelSetpoint { get; set; } = 1.0;
 
-        public double PumpMaxFlow { get; set; } = 0.002; // m³/s
+        public double PumpMaxFlow { get; set; } = 0.01; // m³/s
 
         public double InputFlow { get; private set; }
         public double OutputFlow => Tank.OutputFlow;
@@ -34,7 +34,7 @@ namespace IndustrialSim.Core.Components
                 radius: 0.5,
                 height: 2.0,
                 initialLevel: 0.2,
-                outletCoefficient: 0.001);
+                outletCoefficient: 0.005);
 
             Pump = new FirstOrderActuator(
                 initialValue: 0.0,
@@ -44,7 +44,7 @@ namespace IndustrialSim.Core.Components
 
             InputValve = new FirstOrderActuator(
                 initialValue: 1.0,
-                timeConstant: 0.3,
+                timeConstant: 0.1,
                 minValue: 0.0,
                 maxValue: 1.0);
 
@@ -55,8 +55,8 @@ namespace IndustrialSim.Core.Components
                 maxValue: 1.0);
 
             LevelController = new PIDController(
-                kp: 2.0,
-                ki: 0.3,
+                kp: 3,
+                ki: 0.02,
                 kd: 0.0,
                 outputMin: 0.0,
                 outputMax: 1.0);
@@ -64,14 +64,16 @@ namespace IndustrialSim.Core.Components
 
         public void Step(double time, double dt)
         {
+            Pump.Target = 1.0;
+
             if (EnableLevelControl)
             {
-                double pumpCommand = LevelController.Update(
+                double inputValveCommand = LevelController.Update(
                     LevelSetpoint,
                     Tank.Level,
                     dt);
 
-                Pump.Target = pumpCommand;
+                InputValve.Target = inputValveCommand;
             }
 
             Pump.Step(time, dt);
@@ -84,6 +86,6 @@ namespace IndustrialSim.Core.Components
             Tank.OutletValveOpening = OutputValve.Value;
 
             Tank.Step(time, dt);
-        }
+                }
     }
 }
