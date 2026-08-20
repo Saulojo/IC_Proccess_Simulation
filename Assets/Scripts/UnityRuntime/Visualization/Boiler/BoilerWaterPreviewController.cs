@@ -196,6 +196,24 @@ namespace IndustrialSim.UnityRuntime.Visualization.Boiler
 
         public float BoilingIntensity01 => boilingIntensity01;
 
+        public void SetWaterLevel01(float normalizedLevel)
+        {
+            waterLevel01 = Mathf.Clamp01(normalizedLevel);
+            refreshRequested = true;
+        }
+
+        public void SetCirculation01(float normalizedCirculation)
+        {
+            circulation01 = Mathf.Clamp01(normalizedCirculation);
+            refreshRequested = true;
+        }
+
+        public void SetBoilingIntensity01(float normalizedBoiling)
+        {
+            boilingIntensity01 = Mathf.Clamp01(normalizedBoiling);
+            refreshRequested = true;
+        }
+
         public float CurrentWaterLevelWorldY
         {
             get
