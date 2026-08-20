@@ -101,6 +101,7 @@ namespace IndustrialSim.UnityRuntime.Visualization.Boiler
             "1 = nível próximo ao topo do tambor superior.")]
         [SerializeField, Range(0.02f, 0.98f)]
         private float waterLevel01 = 0.50f;
+        
 
         [Tooltip(
             "Intensidade visual da circulação natural da água.")]
@@ -191,6 +192,9 @@ namespace IndustrialSim.UnityRuntime.Visualization.Boiler
         // ================================================================
 
         public float WaterLevel01 => waterLevel01;
+        public float Circulation01 => circulation01;
+
+        public float BoilingIntensity01 => boilingIntensity01;
 
         public float CurrentWaterLevelWorldY
         {
