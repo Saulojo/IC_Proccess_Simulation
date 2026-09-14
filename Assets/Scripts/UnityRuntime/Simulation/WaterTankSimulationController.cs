@@ -1,5 +1,5 @@
 using IndustrialSim.Core.Components;
-using IndustrialSim.UnityRuntime.Visualization.Boiler;
+using IndustrialSim.UnityRuntime.Visualization.BoilerWater;
 using UnityEngine;
 
 namespace IndustrialSim.UnityRuntime.Simulation
@@ -27,7 +27,7 @@ namespace IndustrialSim.UnityRuntime.Simulation
         [Header("References")]
 
         [SerializeField]
-        private BoilerWaterPreviewController waterVisual;
+        private BoilerWaterVisualController waterVisual;
 
         [Header("Visual Process Mapping")]
 
