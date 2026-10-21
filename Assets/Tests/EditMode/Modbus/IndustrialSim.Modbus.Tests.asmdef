@@ -1,0 +1,24 @@
+{
+    "name": "IndustrialSim.Modbus.Tests",
+    "rootNamespace": "",
+    "references": [
+        "IndustrialSim.IO",
+        "IndustrialSim.Communication.Modbus"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "NModbus.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
